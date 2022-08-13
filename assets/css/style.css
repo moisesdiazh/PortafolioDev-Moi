@@ -1486,7 +1486,7 @@ footer .credits a {
   border-radius: 120px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 389px) {
   .list1, .list2 {
     margin-right: 128px;
   }
@@ -1502,5 +1502,43 @@ footer .credits a {
 
   .github{
     margin-right: 285px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 500px) {
+  .list1, .list2 {
+    margin-right: 90px;
+  }
+
+  .linkedin{
+    margin-left: 192px;
+  }
+
+  .linkdin{
+    border-radius: 200px;
+    width: 330px;
+  }
+
+  .github{
+    margin-right: 250px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 413px) {
+  .list1, .list2 {
+    margin-right: 105px;
+  }
+
+  .linkedin{
+    margin-left: 150px;
+  }
+
+  .linkdin{
+    border-radius: 200px;
+    width: 305px;
+  }
+
+  .github{
+    margin-right: 290px;
   }
 }
