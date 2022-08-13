@@ -1485,3 +1485,22 @@ footer .credits a {
 .linkdin {
   border-radius: 120px;
 }
+
+@media (min-width: 375px) {
+  .list1, .list2 {
+    margin-right: 128px;
+  }
+
+  .linkedin{
+    margin-left: 155px;
+  }
+
+  .linkdin{
+    border-radius: 200px;
+    width: 290px;
+  }
+
+  .github{
+    margin-right: 285px;
+  }
+}
