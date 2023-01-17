@@ -1486,7 +1486,7 @@ footer .credits a {
   border-radius: 120px;
 }
 
-@media (min-width: 375px) and (max-width: 389px) {
+@media (min-width: 375px) and (max-width: 413px) {
   .list1, .list2 {
     margin-right: 128px;
   }
